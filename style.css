@@ -76,7 +76,7 @@ nav {
     color: white;
     opacity: 0;
     pointer-events: none;
-    font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
+    font-size: clamp(2rem, 0.4rem + 3vw, 2.5rem);
 }
 
 .nav-container .links {
@@ -775,9 +775,10 @@ footer .text span a:hover {
         z-index: -1;
         width: 50%;
         height: 60%;
+        margin-bottom: 50px;
     }
 
-
+    
     .skills .skills-details {
         align-items: center;
         justify-content: center;
@@ -809,7 +810,7 @@ footer .text span a:hover {
     .main-container .image {
         width: 50%;
         height: 60%;
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
 
     .main-container .content {
@@ -834,6 +835,10 @@ footer .text span a:hover {
 
     .about-details .right {
         width: 100%;
+    }
+
+    .main-container .image {
+        margin-bottom: 40px;
     }
 
     /* section .button button {
@@ -872,6 +877,10 @@ footer .text span a:hover {
         border: 2px solid transparent;
         cursor: pointer;
         transition: all 0.4s ease;
+    }
+
+    .main-container .image {
+        margin-bottom: 30px;
     }
 }
 
